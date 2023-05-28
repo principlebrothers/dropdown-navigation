@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/script.js" defer></script>
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+
+<body>
+  <section class="header" role="group">
+    <header>
+      <h1 aria-label="logo" id="logo">snap</h1>
+    </header>
+    <nav>
+      <ul class="nav__links">
+        <li><a href="#">Features</a>
+          <figure><img src="./images/icon-arrow-down.svg" alt="arrow down" class="arrow__down"><img
+              src="./images/icon-arrow-up.svg" alt="arrow up" class="arrow__up"></figure>
+          <nav id="links">
+            <a href="#">
+              <figure>
+                <img src="./images/icon-todo.svg" alt="todo">
+              </figure>
+              Todolist
+            </a>
+            <a href="#">
+              <figure>
+                <img src="./images/icon-calendar.svg" alt="calendar">
+              </figure>
+              Calendar
+            </a>
+            <a href="#">
+              <figure>
+                <img src="./images/icon-reminders.svg" alt="reminders">
+              </figure>
+              Reminders
+            </a>
+            <a href="#">
+              <figure>
+                <img src="./images/icon-planning.svg" alt="planning">
+              </figure>
+              Planning
+            </a>
+          </nav>
+        </li>
+        <li><a href="#">Company</a>
+          <figure><img src="./images/icon-arrow-down.svg" alt="arrow down" class="arrow__down"><img
+              src="./images/icon-arrow-up.svg" alt="arrow up" class="arrow__up">
+          </figure>
+          <nav id="links">
+            <a href="#">History</a>
+            <a href="#">Our Team</a>
+            <a href="#">Blog</a>
+          </nav>
+        </li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+      <ul class="nav__links authentication">
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Register</a></li>
+      </ul>
+    </nav>
+    <button type="button" class="menu">
+      <figure>
+        <img src="./images/icon-menu.svg" alt="menu" class="open__menu">
+        <img src="./images/icon-close-menu.svg" alt="close menu" class="close__menu">
+      </figure>
+    </button>
+  </section>
+  <main>
+    <div role="group" class="left__side">
+      <section id="introduction">
+        <h2>Make remote work</h2>
+        <p>Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.</p>
+        <button type="button">Learn more</button>
+      </section>
+      <figure>
+        <img src="./images/client-databiz.svg" alt="databiz">
+        <img src="./images/client-audiophile.svg" alt="audiophile">
+        <img src="./images/client-meet.svg" alt="meet">
+        <img src="./images/client-maker.svg" alt="maker">
+      </figure>
+    </div>
+    <figure>
+      <img src="./images/image-hero-desktop.png" alt="desktop hero">
+      <img src="./images/image-hero-mobile.png" alt="mobile hero">
+    </figure>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend
+      Mentor</a>
+    Coded by <a href="https://github.com/principlebrothers/" target="_blank" rel="noopener">Adonu Ernest Anyewe</a>
+  </footer>
+</body>
+
+</html>
